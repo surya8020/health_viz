@@ -31,7 +31,7 @@ const ogData = [
     "Avg Speed(mi/hr)": 6.84,
     "Step Count (count)": 1418,
     "Step Cadence (spm)": 2.81,
-    "Swimming Stroke Count (count)": "",
+    "Swimming Stroke Count (count)": "`",
     "Swim Stoke Cadence (spm)": "",
     "Flights Climbed (count)": "",
     "Elevation Ascended (ft)": "",
@@ -285,6 +285,7 @@ const ogData = [
     "Elevation Descended (ft)": ""
   }
 ]
+
 // Add a new column "ShortDateTime" with parsed datetime in a shorter format
 const myData = ogData.map((item) => {
   const parsedDateTime = new Date(item.Start);
@@ -302,7 +303,7 @@ myData.sort((a, b) => new Date(a.Start) - new Date(b.Start));
 const aggregateData = () => {
   // Group the data by "ShortDate" and calculate the total distance for each group
   const aggregatedData = myData.reduce((result, item) => {
-    const { ShortDate, 'Distance (mi)': Distance, 'Total Energy (kcal)': Calories } = item;
+    const { ShortDate, 'Distance (mi)': Distance, 'Active Energy (kcal)': Calories } = item;
     if (!result[ShortDate]) {
       result[ShortDate] = {
         ShortDate,

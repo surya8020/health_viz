@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-html, body, #app, #app>div {
+/* html, body, #app, #app>div {
   height: 100%
-}
+} */
 
 .App-logo {
   height: 40vmin;
