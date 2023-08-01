@@ -1,6 +1,44 @@
 const ogData = [
   {
     "Type": "Running",
+    "Start": "2023-07-31 18:42",
+    "End": "2023-07-31 18:53",
+    "Duration": "00:11:23",
+    "Total Energy (kcal)": 165.75,
+    "Active Energy (kcal)": 142.61,
+    "Max Heart Rate (bpm)": 173,
+    "Avg Heart Rate (bpm)": 151.27,
+    "Distance (mi)": 1.11,
+    "Speed": 5.86,
+    "Step Count (count)": 1715,
+    "Step Cadence (spm)": 2.51,
+    "Swimming Stroke Count (count)": "",
+    "Swim Stoke Cadence (spm)": "",
+    "Flights Climbed (count)": "",
+    "Elevation Ascended (ft)": "",
+    "Elevation Descended (ft)": ""
+  },
+  {
+    "Type": "Running",
+    "Start": "2023-07-31 18:21",
+    "End": "2023-07-31 18:27",
+    "Duration": "00:05:50",
+    "Total Energy (kcal)": 82.84,
+    "Active Energy (kcal)": 70.89,
+    "Max Heart Rate (bpm)": 148,
+    "Avg Heart Rate (bpm)": 134.03,
+    "Distance (mi)": 0.556,
+    "Speed": 5.71,
+    "Step Count (count)": 880,
+    "Step Cadence (spm)": 2.51,
+    "Swimming Stroke Count (count)": "",
+    "Swim Stoke Cadence (spm)": "",
+    "Flights Climbed (count)": "",
+    "Elevation Ascended (ft)": "",
+    "Elevation Descended (ft)": ""
+  },
+  {
+    "Type": "Running",
     "Start": "2023-07-30 18:30",
     "End": "2023-07-30 18:53",
     "Duration": "00:23:45",
@@ -9,7 +47,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 148,
     "Avg Heart Rate (bpm)": 139,
     "Distance (mi)": 2.3,
-    "Avg Speed(mi/hr)": 5.82,
+    "Speed": 5.82,
     "Step Count (count)": 3663,
     "Step Cadence (spm)": 2.57,
     "Swimming Stroke Count (count)": "",
@@ -28,10 +66,10 @@ const ogData = [
     "Max Heart Rate (bpm)": 185,
     "Avg Heart Rate (bpm)": 155.89,
     "Distance (mi)": 0.96,
-    "Avg Speed(mi/hr)": 6.84,
+    "Speed": 6.84,
     "Step Count (count)": 1418,
     "Step Cadence (spm)": 2.81,
-    "Swimming Stroke Count (count)": "`",
+    "Swimming Stroke Count (count)": "",
     "Swim Stoke Cadence (spm)": "",
     "Flights Climbed (count)": "",
     "Elevation Ascended (ft)": "",
@@ -47,7 +85,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 147,
     "Avg Heart Rate (bpm)": 138.29,
     "Distance (mi)": 2.28,
-    "Avg Speed(mi/hr)": 5.85,
+    "Speed": 5.85,
     "Step Count (count)": 3649,
     "Step Cadence (spm)": 2.6,
     "Swimming Stroke Count (count)": "",
@@ -66,7 +104,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 184,
     "Avg Heart Rate (bpm)": 162.02,
     "Distance (mi)": 1.02,
-    "Avg Speed(mi/hr)": 6.42,
+    "Speed": 6.42,
     "Step Count (count)": 1471,
     "Step Cadence (spm)": 2.56,
     "Swimming Stroke Count (count)": "",
@@ -85,7 +123,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 180,
     "Avg Heart Rate (bpm)": 152.43,
     "Distance (mi)": 2.1,
-    "Avg Speed(mi/hr)": 6.48,
+    "Speed": 6.48,
     "Step Count (count)": 3097,
     "Step Cadence (spm)": 2.66,
     "Swimming Stroke Count (count)": "",
@@ -104,7 +142,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 140,
     "Avg Heart Rate (bpm)": 116.43,
     "Distance (mi)": 0.233,
-    "Avg Speed(mi/hr)": 5.38,
+    "Speed": 5.38,
     "Step Count (count)": 355,
     "Step Cadence (spm)": 2.28,
     "Swimming Stroke Count (count)": "",
@@ -123,7 +161,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 182,
     "Avg Heart Rate (bpm)": 156.95,
     "Distance (mi)": 2.05,
-    "Avg Speed(mi/hr)": 6.31,
+    "Speed": 6.31,
     "Step Count (count)": 3076,
     "Step Cadence (spm)": 2.62,
     "Swimming Stroke Count (count)": "",
@@ -142,7 +180,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 183,
     "Avg Heart Rate (bpm)": 159.56,
     "Distance (mi)": 2.06,
-    "Avg Speed(mi/hr)": 6.4,
+    "Speed": 6.4,
     "Step Count (count)": 3058,
     "Step Cadence (spm)": 2.64,
     "Swimming Stroke Count (count)": "",
@@ -161,7 +199,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 188,
     "Avg Heart Rate (bpm)": 167.05,
     "Distance (mi)": 0.942,
-    "Avg Speed(mi/hr)": 6.72,
+    "Speed": 6.72,
     "Step Count (count)": 1375,
     "Step Cadence (spm)": 2.73,
     "Swimming Stroke Count (count)": "",
@@ -180,7 +218,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 179,
     "Avg Heart Rate (bpm)": 156.66,
     "Distance (mi)": 2.1,
-    "Avg Speed(mi/hr)": 6.34,
+    "Speed": 6.34,
     "Step Count (count)": 3169,
     "Step Cadence (spm)": 2.66,
     "Swimming Stroke Count (count)": "",
@@ -199,7 +237,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 184,
     "Avg Heart Rate (bpm)": 158.38,
     "Distance (mi)": 0.942,
-    "Avg Speed(mi/hr)": 6.88,
+    "Speed": 6.88,
     "Step Count (count)": 1336,
     "Step Cadence (spm)": 2.71,
     "Swimming Stroke Count (count)": "",
@@ -218,7 +256,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 184,
     "Avg Heart Rate (bpm)": 154.25,
     "Distance (mi)": 0.983,
-    "Avg Speed(mi/hr)": 6.95,
+    "Speed": 6.95,
     "Step Count (count)": 1368,
     "Step Cadence (spm)": 2.69,
     "Swimming Stroke Count (count)": "",
@@ -237,7 +275,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 182,
     "Avg Heart Rate (bpm)": 163.94,
     "Distance (mi)": 0.47,
-    "Avg Speed(mi/hr)": 6.11,
+    "Speed": 6.11,
     "Step Count (count)": 686,
     "Step Cadence (spm)": 2.48,
     "Swimming Stroke Count (count)": "",
@@ -256,7 +294,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 186,
     "Avg Heart Rate (bpm)": 163.01,
     "Distance (mi)": 1,
-    "Avg Speed(mi/hr)": 6.87,
+    "Speed": 6.87,
     "Step Count (count)": 1357,
     "Step Cadence (spm)": 2.59,
     "Swimming Stroke Count (count)": "",
@@ -275,7 +313,7 @@ const ogData = [
     "Max Heart Rate (bpm)": 178,
     "Avg Heart Rate (bpm)": 156.9,
     "Distance (mi)": 0.475,
-    "Avg Speed(mi/hr)": 5.77,
+    "Speed": 5.77,
     "Step Count (count)": 640,
     "Step Cadence (spm)": 2.16,
     "Swimming Stroke Count (count)": "",
@@ -284,7 +322,7 @@ const ogData = [
     "Elevation Ascended (ft)": "",
     "Elevation Descended (ft)": ""
   }
-]
+];
 
 // Add a new column "ShortDateTime" with parsed datetime in a shorter format
 const myData = ogData.map((item) => {
@@ -300,26 +338,52 @@ const myData = ogData.map((item) => {
 
 myData.sort((a, b) => new Date(a.Start) - new Date(b.Start));
 
-const aggregateData = () => {
-  // Group the data by "ShortDate" and calculate the total distance for each group
+const getAverage = (list, ogList) => {
+  // Calculate the count of items for each unique "ShortDate"
+
+  return list.map((obj) => {
+    const newObj = { ...obj }; // Create a new object to avoid mutating the original object
+    for (const key in newObj) {
+      if (typeof newObj[key] === 'number') {
+        const filteredData = ogList.filter((obj) => obj.ShortDate === newObj.ShortDate);
+        newObj[key] = (newObj[key] / filteredData.length).toFixed(2);
+      }
+    }
+    return newObj;
+  });
+};
+
+const aggregateData = (aggregationType) => {
+  // Group the data by "ShortDate" and calculate the totals for each group
   const aggregatedData = myData.reduce((result, item) => {
-    const { ShortDate, 'Distance (mi)': Distance, 'Active Energy (kcal)': Calories } = item;
+    const { ShortDate, ...otherFields } = item;
     if (!result[ShortDate]) {
+      // Initialize the group with 'Total' appended to all other fields
       result[ShortDate] = {
         ShortDate,
-        TotalDistance: 0,
-        TotalCalories: 0,
+        ...Object.keys(otherFields).reduce((acc, field) => {
+          acc[field] = otherFields[field];
+          return acc;
+        }, {}),
       };
+    } else {
+      // If the group already exists, update the totals for each field
+      for (const field in otherFields) {
+        if (typeof otherFields[field] === 'number') {
+          result[ShortDate][field] = Math.round(100 * ((result[ShortDate][field] || 0) + otherFields[field])) / 100;
+        }
+      }
     }
-    result[ShortDate].TotalDistance += Distance;
-    result[ShortDate].TotalCalories += Math.round(Calories);
     return result;
   }, {});
 
   // Convert the aggregatedData object to an array of objects
   const aggregatedDataArray = Object.values(aggregatedData);
-
+  if (aggregationType === 'Average') {
+    return getAverage(aggregatedDataArray, myData);
+  }
   return aggregatedDataArray;
 };
+
 
 export { myData, aggregateData }
